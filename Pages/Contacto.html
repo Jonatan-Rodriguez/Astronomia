@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <title>Astronomía para todos</title>
+</head>
+<body>
+    <header>
+        <nav class="header__lista">
+            <ul>
+                <li><a href="./Noticias.html" class="nav__a">Noticias</a></li>
+                <li><a href="./Fenomenos.html" class="nav__a">Fenomenos</a></li>
+                <li><a  href="../Index.html"><img class="header__logo" src="../Img/logo.svg" alt="Astronomia para todos" title="Astronomia para todos"></a></li>
+                <li><a href="./Historia.html" class="nav__a">Historia</a></li>
+                <li><a href="./Contacto.html" class="nav__a">Contacto</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="main__contact">
+                <h2 class="contact__title">Contáctanos</h2>
+                <form class="contact__form" action="" method="post">
+                    <label for="nombre">Indique su nombre:</label>
+                    <input  class="form__input" type="text" name="nombre" placeholder="Ej: Juan" required>
+
+                    <label for="email">Indique su correo:</label>
+                    <input  class="form__input"type="email" name="email" placeholder="Ej: juan@correo.com" required>
+
+                    <label for="texto">Indique su mensaje:</label>
+                    <textarea class="form__input" name="texto" id="" cols="30" rows="10" required></textarea>
+                    
+                    <input class="form__submit" type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>    
+    </main>
+    <footer>
+        <div class="footer__list">
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="./Noticias.html">Noticias</a></li>
+                <li><a href="./Fenomenos.html">Fenomenos astronomicos</a></li>
+                <li><a href="./Historia.html">Historia</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer__logo">
+            <img src="../Img/logo.svg" alt="Astronomia para todos" title="Astronomia para todos">
+        </div>
+        <!-- <div class="footer__text">
+            <h3>Copyright© 2022 Astronomía para todos. Todos los Derechos Reservados.</h3>
+        </div>-->
+        <div class="footer__social">
+            <p>Seguinos en las redes</p>
+            <ul>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
