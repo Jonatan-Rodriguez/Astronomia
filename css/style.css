@@ -36,7 +36,7 @@ html{
 
 body{
     font-family: var(--font-principal);
-    background-image: url(../img/Fondo.jpg);
+    background-image: url(../Img/fondo.jpg);
     margin: 0;
 }
 
