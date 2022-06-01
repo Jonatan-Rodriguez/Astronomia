@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Astronomía para todos</title>
 </head>
@@ -22,41 +23,88 @@
         
     <main>
         <div class="container">
-            <section class="news-section" >
+           <!--  <section class="news-section" >
                 <h2 class="section__title" id="titulo">Ultimas noticias</h2>
                 <div class="section__news" id="t1">
                     <img src="./Img/eclipse.jpg" alt="Eclipse">
                     <div class="news__h3">
                         <h3>Eclipse solar del 30 de abril de 2022: cómo, cuándo y dónde verlo desde América
                         </h3>
-                    </div>
+                    </div> -->
                     
                     <!--<p>La tarde de este sábado, la Luna bloqueará parcialmente la luz del Sol, 
                         provocando un eclipse que será visible principalmente desde el sur del continente
                     </p>-->
-                </div>
+               <!--  </div>
                 <div class="section__news" id="t2">
                     <img src="./Img/coivd.jpg" alt="covid-19">
                     <div class="news__h3">
                         <h3>La astronomía se pone al servicio de la lucha contra la covid-19
                         </h3>
-                    </div>
+                    </div> -->
                     <!--<p>Codelco, la cuprífera chilena, instala en colegios detectores de Co2 de última 
                         generación, impulsados por dos astrónomos para disminuir los contagios
                     </p>-->
-                </div>
+                <!-- </div>
                 <div class="section__news" id="t3">
                     <img src="./Img/lluvia de estrellas.jpg" alt="Lluvia de estrellas">
                     <div class="news__h3">
                         <h3>Líridas 2022: cuándo y cómo ver la lluvia de estrellas de abril
                         </h3>
-                    </div>    
+                    </div> -->    
                     <!--<p>La lluvia de estrellas alcanzará su actividad máxima la noche del 22 y 
                         madrugada del 23 de abril, cuando será posible observar hasta 20 meteoros 
                         por hora en cielos oscuros
                     </p>-->
+               <!--  </div>
+            </section> -->
+            <!---------------Utilizando las clases de bootstrap-------------->
+            <section class="news-section" >
+                <h2 class="section__title" id="titulo">Ultimas noticias</h2>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                    <div class="card">
+                        <img src="./Img/eclipse.jpg" class="card-img-top" alt="Eclipse">
+                        <div class="card-body">
+                        <h3 class="card-title">Eclipse solar del 30 de abril de 2022: cómo, cuándo y dónde verlo desde América</h3>
+                        <p class="card-text">La tarde de este sábado, la Luna bloqueará parcialmente la luz del Sol, 
+                            provocando un eclipse que será visible principalmente desde el sur del continente.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card">
+                        <img src="./Img/coivd.jpg" class="card-img-top" alt="covid-19">
+                        <div class="card-body">
+                        <h3 class="card-title">La astronomía se pone al servicio de la lucha contra la covid-19</h3>
+                        <p class="card-text">Codelco, la cuprífera chilena, instala en colegios detectores de Co2 de última 
+                            generación, impulsados por dos astrónomos para disminuir los contagios.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card">
+                        <img src="./Img/lluvia de estrellas.jpg" class="card-img-top" alt="Lluvia de estrellas">
+                        <div class="card-body">
+                        <h3 class="card-title">Líridas 2022: cuándo y cómo ver la lluvia de estrellas de abril.</h3>
+                        <p class="card-text">La lluvia de estrellas alcanzará su actividad máxima la noche del 22 y 
+                            madrugada del 23 de abril, cuando será posible observar hasta 20 meteoros 
+                            por hora en cielos oscuros.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card">
+                        <img src="./Img/noticia.jpg" class="card-img-top" alt="Urano">
+                        <div class="card-body">
+                        <h3 class="card-title">Urano, el objetivo prioritario de la NASA para la próxima década</h3>
+                        <p class="card-text">si queremos desentrañar las claves de nuestros orígenes, de los orígenes de la Tierra y de la Vida, no
+                            podemos hacerlo estudiando únicamente nuestro planeta.</p>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-            </section>
+            </section>    
         </div>    
     </main>
     <footer>
@@ -84,5 +132,6 @@
             </ul>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

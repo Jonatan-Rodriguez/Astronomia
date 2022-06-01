@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Astronomía para todos</title>
 </head>
@@ -25,7 +26,7 @@
         <div class="container">
             <div class="container__style">
                 <h1 class="container__title">Noticias</h1>
-                <article class="article-target">
+                <!-- <article class="article-target">
                     <div class="target-text">
                         <h2>Urano, el objetivo prioritario de la NASA para la próxima década</h2>
                         <p>si queremos desentrañar las claves de nuestros orígenes, de los orígenes de la Tierra y de la Vida, no
@@ -52,7 +53,24 @@
                     <div class="target-img">        
                         <img src="../Img/noticia.jpg" alt="urano">
                     </div>
-                </article>
+                </article> -->
+                <!------------ Utilizando las clases de bootstrap ------------------->
+                <div class="card mb-3" class="card">
+                    <img src="../Img/galaxy.jpg" class="card-img-top" alt="urano">
+                    <div class="card-body">
+                      <h3 class="card-title">¿Tocaron la Tierar? Un estudio revela cuatro “civilizaciones extraterrestres malvadas” en nuestra galaxia</h3>
+                      <p class="card-text">Enviar mensajes desde la Tierra hacia el espacio es el mayor intento de comunicación que ha hecho el ser humano de conectar con supuestas civilizaciones extraterrestres. Por eso existe METI o Mensajería de Inteligencia Extraterrestre, que es la práctica que busca enviar señales de ondas de radio para informar la ubicación del planeta en la Vía Láctea.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card mb-3" class="card">
+                    <img src="../Img/galaxy.jpg" class="card-img-top" alt="urano">
+                    <div class="card-body">
+                      <h3 class="card-title">¿Tocaron la Tierar? Un estudio revela cuatro “civilizaciones extraterrestres malvadas” en nuestra galaxia</h3>
+                      <p class="card-text">Enviar mensajes desde la Tierra hacia el espacio es el mayor intento de comunicación que ha hecho el ser humano de conectar con supuestas civilizaciones extraterrestres. Por eso existe METI o Mensajería de Inteligencia Extraterrestre, que es la práctica que busca enviar señales de ondas de radio para informar la ubicación del planeta en la Vía Láctea.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>    
             </div>    
         </div>    
     </section>
@@ -81,7 +99,7 @@
             </ul>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>
