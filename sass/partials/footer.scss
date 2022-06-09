@@ -1,10 +1,10 @@
 footer{
-    background: var(--primary);
+    background: $primary;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: var(--font-base);
-    color: var(--text-color);
+    font-size: $font-base;
+    color: $text-color;
     margin: 0;
     width: 100%;
     .footer__list ul li a:hover{
@@ -33,6 +33,6 @@ footer{
         border-radius: 5px;
     }
     .footer__social p{
-        font-size: var(--font-base);
+        font-size: $font-base;
     }
 }

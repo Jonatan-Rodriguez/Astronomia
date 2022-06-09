@@ -4,14 +4,14 @@
     padding: 30px;
     margin: 100px auto;
     border-radius: 5px;
-    font-family: var(--font-principal);
-    color:var(--text-color);
+    font-family: $font-principal;
+    color:$text-color;
     box-sizing: border-box;
     box-shadow: 7px 13px 37px #000;
 }
 .contact__form{
     padding: 30px;
-    font-size: var(--font-base);
+    font-size: $font-base;
 }
 .contact__title{
     font-size: 30px;
@@ -25,9 +25,9 @@
     border-radius: 5px;
     margin-bottom: 16px;
     border: 1px solid #8F5E25;
-    font-family: var(--font-secondary);
-    font-size: var(--font-small);
-    color: var(--text-color);
+    font-family: $font-secondary;
+    font-size: $font-small;
+    color: $text-color;
 }
 .contac__form label{
     height: 40px;
@@ -38,9 +38,9 @@
     background: #8F5E25;
     border: none;
     padding: 12px;
-    color: var(--text-color);
+    color: $text-color;
     margin: 16px 0;
-    font-size: var(--font-base);
+    font-size: $font-base;
     border-radius: 4px;
 }
 @media screen and (max-width:600px) {

@@ -17,13 +17,13 @@
     &__caption{
         color:white;
         padding: 3% 1rem;
-        font-size: var(--font-medium);
+        font-size: $font-medium;
     
     }
     &__paragraph{
         color: white;
         padding: 3% 1rem;
-        font-size: var(--font-base);
+        font-size: $font-base;
     }
 }
 .container__style{
