@@ -1,0 +1,23 @@
+/* externos */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* misc */
+
+@import './misc/variables.scss';
+@import './misc/normalize.scss';
+@import './misc/animations.scss';
+
+/* partials */
+
+@import './partials/header.scss';
+@import './partials/footer.scss';
+
+/* pages */
+
+@import './pages/home.scss';
+@import './pages/contacto.scss';
+@import './pages/fenomenos.scss';
+@import './pages/historia.scss';
+@import './pages/noticias.scss';

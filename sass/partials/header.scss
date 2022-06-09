@@ -1,0 +1,25 @@
+header{
+    background: var(--primary);
+    .nav__a:hover{
+        background: #4a4a4a;
+    }
+    .header__lista img:hover{
+        background: #4a4a4a;    
+    }
+    .header__lista ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: var(--font-base);
+    }
+    .header__lista img{
+        width: 100px;
+        transition: all 0.4s linear;
+        border-radius: 50%;
+    }
+    .nav__a{
+        padding: 1rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+}
