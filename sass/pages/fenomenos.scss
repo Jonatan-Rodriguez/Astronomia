@@ -21,8 +21,7 @@
     
     }
     &__paragraph{
-        color: white;
-        padding: 3% 1rem;
+        @extend .article__caption;
         font-size: $font-base;
     }
 }
