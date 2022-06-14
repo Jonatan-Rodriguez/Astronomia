@@ -1,6 +1,6 @@
 header{
-    background: $primary;
-    color:$text-color;
+    background: map-get($colors, primary);
+    color:map-get($colors, text-color);
     .nav__a:hover{
         background: #4a4a4a;
     }

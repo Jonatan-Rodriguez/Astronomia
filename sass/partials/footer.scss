@@ -1,10 +1,10 @@
 footer{
-    background: $primary;
+    background: map-get($colors, primary);
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: $font-base;
-    color: $text-color;
+    color: map-get($colors, text-color);
     margin: 0;
     width: 100%;
     .footer__list ul li a:hover{

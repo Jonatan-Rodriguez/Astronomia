@@ -1,8 +1,10 @@
  /* colors */
- $primary:#333;
- $secondary:#8F5E25;
- $base:rgba(51, 51, 51,0.7);
- $text-color:white;
+ $colors: (
+    primary:#333,
+    secondary:#8F5E25,
+    base:rgba(51, 51, 51,0.7),
+    text-color:white
+ );
 
  /* spacings */
  $spacing-small:2.4rem;
