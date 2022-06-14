@@ -1,8 +1,6 @@
 footer{
+    @include flex(space-around,center);
     background: map-get($colors, primary);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     font-size: $font-base;
     color: map-get($colors, text-color);
     margin: 0;

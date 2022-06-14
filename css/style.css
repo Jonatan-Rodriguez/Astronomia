@@ -54,10 +54,10 @@ header {
     border-radius: 5px; }
 
 footer {
-  background: #333;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
+  background: #333;
   font-size: 1.6em;
   color: white;
   margin: 0;
@@ -92,11 +92,11 @@ footer {
 
 .section__title {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 4em;
   background: rgba(255, 0, 0, 0.3);
   color: white;
-  justify-content: center;
-  align-items: center;
   padding: auto 100%;
   font-family: "roboto slab", serif;
   margin: 0; }

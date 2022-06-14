@@ -4,12 +4,10 @@
     padding: 2rem 0;
 }
 .section__title{
-    display: flex;
+    @include flex(center,center);
     font-size: $font-large;
     background: rgba(255, 0, 0,0.3);
     color: map-get($colors, text-color);
-    justify-content: center;
-    align-items: center;
     padding: auto 100%;
     font-family: $font-secondary;
     margin: 0;
