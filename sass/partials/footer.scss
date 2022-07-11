@@ -1,36 +1,154 @@
 footer{
-    @include flex(space-around,center);
-    background: map-get($colors, primary);
-    font-size: $font-base;
-    color: map-get($colors, text-color);
-    margin: 0;
+    background-color: black;
+    border-top: 1px solid $text-color;
     width: 100%;
-    .footer__list ul li a:hover{
-        background:#4a4a4a;
+
+    .footer__container{
+        @include flex(flex-start, stretch, row nowrap);
+        width: 100%;
+        margin: 0 auto;
     }
-    .footer__social ul li a:hover{
-        background: #4a4a4a;
+
+    .footer__left{
+        @include flex(flex-start, center, column nowrap);
+        width: 50%;
+        height: 100%;
+        
+
+        .footer__text{
+            text-align: center;
+            width: 80%;
+            margin: $spacing-small auto;
+            h2{
+                color: $text-color;
+                font-size: $font-large;
+                font-family: $font-principal;
+            }
+            p{
+                color: $text-color;
+                font-size: $font-medium;
+                font-family: $font-secondary;
+            }
+            b{
+                color: $secondary;
+            }
+
+        }
+
+        .footer__icon{
+            width: 40%;
+            margin: $spacing-small auto;
+
+            img{
+                max-width: 100%;
+            }
+        }
+
+        .footer__form{
+            @include flex(flex-start, center, column nowrap);
+            width: 80%;
+
+            .footer__input{
+                color: $text-color;
+                background-color: transparent;
+                border: none;
+                border-bottom: 1px solid $text-color;
+                padding: $spacing-small;
+                margin: $spacing-small auto;
+                width: 100%;
+                height: $font-large;
+            }
+            .footer__submit{
+                border: 1px solid $text-color;
+                border-radius: 100px;
+                background-color: transparent;
+                color: $text-color;
+                font-size: $font-base;
+                padding: 8px 16px;
+            }
+        }
+
+        .footer__button{
+            @include flex(flex-start, center, row nowrap);
+            border-radius: 50%;
+            border: 1px solid white ;
+            align-self:flex-start;
+            margin: 3% 5%;
+
+            
+        }
     }
-    .footer__logo{
-        width: 15%;
+
+    .footer__rigth{
+        @include flex(flex-start, flex-start, column nowrap);
+        width: 50%;
+        border-left: 1px solid $text-color;
+        border-bottom: 1px solid $text-color;
+
+        .footer__pages{
+            width: 100%;
+            height: 85%;
+
+            ul{
+                @include flex(flex-start, flex-start, column nowrap);
+                font-size:$font-large ;
+                width: 100%;
+                height: 100%;
+                
+                li{
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid white;
+                    width: 100%;
+                    height: 20%;
+                    
+
+                    a{
+                        display: flex;
+                        align-items: center;
+                        margin-left: $spacing-small;
+                        color: $text-color;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .footer__social{
+            @include flex(space-around, center, row nowrap);
+            width: 100%;
+            height: 15%;
+            
+
+            ul{
+                @include flex(flex-start, center, row nowrap);
+                width: 100%;
+               
+                li{
+                    border-radius: 50%;
+                    border: 1px solid white ;
+                    padding: 8px;
+                    margin: 0 $spacing-small;
+                }
+            }
+
+            .footer__text-link{
+                font-size: $font-base;
+                font-family: $font-principal;
+                
+                a{
+                    color: $text-color;
+                }
+            }
+
+        }
+
+        .footer__texte-link{
+            display: inline-block;
+            width: 20%;
+        }
+
     }
-    .footer__list ul li a{
-        display: inline-block;
-        padding: 0.5rem 0.5rem;
-        transition: all 0.4s linear;
-        border-radius: 5px;
-    }
-    .footer__social{
-        display: inline-block;
-        text-align: center;
-    }
-    .footer__social ul li a{
-        display: inline-block;
-        padding: 0.5rem 0.5rem;
-        transition: all 0.4s linear;
-        border-radius: 5px;
-    }
-    .footer__social p{
-        font-size: $font-base;
-    }
+    
 }

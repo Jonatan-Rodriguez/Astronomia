@@ -4,10 +4,10 @@
     padding: 2rem 0;
 }
 .section__title{
-    @include flex(center,center);
+    @include flex(center,center, row nowrap);
     font-size: $font-large;
     background: rgba(255, 0, 0,0.3);
-    color: map-get($colors, text-color);
+    color: $text-color;
     padding: auto 100%;
     font-family: $font-secondary;
     margin: 0;
@@ -25,7 +25,11 @@
     &-body{
         background:rgba(70, 70, 70, 0.5);
     }
+
+    img{
+        max-width: 100%;
+    }
 }
-a:hover{
-   color: map-get($colors, secondary);
-}
+/* a:hover{
+   color: $secondary;
+} */
